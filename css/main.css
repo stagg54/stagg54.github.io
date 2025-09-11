@@ -19,7 +19,7 @@ h1 {
 
 .header-nav > li {
   display: inline-block;
-  margin-left: 1em
+  margin-left: 1em;
 }
 
 .header-nav a {
@@ -28,6 +28,25 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ed6e2f;
+}
+.header-logo:hover,
+.header-logo:active {
+  opacity: 0.5;
+}
+
+.header-nav > li:first-child a {
+  color: #ed6e2f;
+}
+
+.header-nav > li:first-child a:hover,
+.header-nav > li:first-child a:active
+{
+  color: #000;
 }
 /* Hero Styles */
 .full-hero {
