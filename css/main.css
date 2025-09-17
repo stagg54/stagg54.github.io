@@ -48,6 +48,11 @@ h1 {
 {
   color: #000;
 }
+
+.header-nav > li ~ li {
+  border-left: 1px solid rgba(0,0,0,0.3);
+  padding-left: 1em;
+}
 /* Hero Styles */
 .full-hero {
   background-color: #c7dbfc;
@@ -119,4 +124,14 @@ h1 {
 }
 .bio-box img {
   width: 100%;
+}
+
+/*General Styles*/
+
+h2 + p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
 }
