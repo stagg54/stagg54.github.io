@@ -12,6 +12,13 @@ h1 {
 }
 
 /* Header Styles */
+.header {
+  background-color: #aaa;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -53,6 +60,15 @@ h1 {
   border-left: 1px solid rgba(0,0,0,0.3);
   padding-left: 1em;
 }
+
+.header-logo {
+  background-color: #000;
+  left:50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
 /* Hero Styles */
 .full-hero {
   background-color: #c7dbfc;
