@@ -13,11 +13,26 @@ h1 {
 
 /* Header Styles */
 .header {
-  background-color: #aaa;
-  height: 300px;
-  position: relative;
-  width: 100%;
+  background-color: #000;
+  color: #fff;
 }
+
+.header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 8vh;
+  padding-top: 1vh;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+
+.header-logo:hover,
+.header-logo:active {
+  opacity: 0.5;
+}
+
 
 .header-nav {
   float: right;
@@ -41,10 +56,7 @@ h1 {
 .header-nav a:active {
   color: #ed6e2f;
 }
-.header-logo:hover,
-.header-logo:active {
-  opacity: 0.5;
-}
+
 
 .header-nav > li:first-child a {
   color: #ed6e2f;
@@ -53,20 +65,18 @@ h1 {
 .header-nav > li:first-child a:hover,
 .header-nav > li:first-child a:active
 {
-  color: #000;
+  color: #fff;
 }
 
 .header-nav > li ~ li {
-  border-left: 1px solid rgba(0,0,0,0.3);
+  border-left: 2px solid rgba(255,255,255,0.3);
   padding-left: 1em;
 }
 
-.header-logo {
-  background-color: #000;
-  left:50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%,-50%);
+
+
+.header-logo img {
+  width: 6vh;
 }
 
 /* Hero Styles */
