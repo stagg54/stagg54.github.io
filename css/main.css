@@ -33,6 +33,9 @@ h1 {
   opacity: 0.5;
 }
 
+.header-logo img {
+  width: 6vh;
+}
 
 .header-nav {
   float: right;
@@ -42,6 +45,11 @@ h1 {
 .header-nav > li {
   display: inline-block;
   margin-left: 1em;
+}
+
+.header-nav > li ~ li {
+  border-left: 2px solid rgba(255,255,255,0.3);
+  padding-left: 1em;
 }
 
 .header-nav a {
@@ -68,16 +76,9 @@ h1 {
   color: #fff;
 }
 
-.header-nav > li ~ li {
-  border-left: 2px solid rgba(255,255,255,0.3);
-  padding-left: 1em;
-}
 
 
 
-.header-logo img {
-  width: 6vh;
-}
 
 /* Hero Styles */
 .full-hero {
