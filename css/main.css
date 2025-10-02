@@ -168,6 +168,10 @@ h2 + p {
   padding: 10vh 0 15vh;
   text-align: center;
 }
+.footer .social-list{
+  margin-top: 20px;
+}
+
 .footer-logo img {
   width: 8vh;
 }
