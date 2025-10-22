@@ -79,17 +79,27 @@ h1 {
 
 /* Hero Styles */
 .full-hero {
-  background-color: #c8dbfc;
+  background-color: #c7dbfc;
   background-size: cover;
   box-sizing: border-box;
   height: 100vh;
   padding-top: 11vh;
 }
+.full-hero:after {
+  border: 10px solid;
+  border-color: #fff  transparent transparent;
+  bottom: 2vh;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%, 0);
+  width: 0;
+}
 .hero-home{
   background-image: url(/img/shark.jpg);
   background-position: center top;
 }
-
 .hero-content {
   color: #fff;
   position: relative;
