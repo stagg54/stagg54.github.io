@@ -40,7 +40,6 @@ p {
   padding-top: 10vh;
   width: 100%;
 }
-
 /*Nav Links*/
 .nav-links a {
   font-size: .8rem;
@@ -101,7 +100,6 @@ p {
 {
   color: #fff;
 }
-
 /* Hero Styles */
 .full-hero {
   background-color: #c7dbfc;
@@ -223,7 +221,18 @@ hero-content .social-link:hover {
   box-shadow: 0 0 0 5px #ed6e2f;
   opacity: 1;
 }
-
+.gallery-photo {
+  position: relative;
+}
+.gallery-photo img {
+  width: 100%;
+}
+.gallery-info {
+  font-size: 0.8rem;
+}
+.gallery-info h3 {
+  margin-bottom: 1em;
+}
 /* Social Styles*/
 .social-link {
   background: rgba(150,150,150,0.5);
@@ -251,7 +260,6 @@ hero-content .social-link:hover {
   display: inline-block;
   margin: 0 0.5em
 }
-
 /* Bio Styles */
 .bio-wrapper {
   font-size: 24px;
