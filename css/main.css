@@ -19,6 +19,11 @@ h1 {
 h2 {
   font-size: 2em;
 }
+h4 {
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /*General Styles*/
 h1 + p {
   font-size: -1.8em;
@@ -196,6 +201,22 @@ hero-content .social-link:hover {
 }
 .col-three .col-aside {
   flex: 0 1 20em;
+}
+/*Column Styles for Blog*/
+col-two {
+  display: flex;
+}
+.col-two .col-aside {
+  flex: 0 0 20 em;
+  order: 1;
+}
+.col-two .col-content {
+  flex: 1;
+}
+.page {
+  margin: 10vh auto 15vh;
+  max-width: 980px;
+  width: 85vw;
 }
 /*Gallery Styles*/
 .gallery-thumbs {
