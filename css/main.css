@@ -203,7 +203,7 @@ hero-content .social-link:hover {
   flex: 0 1 20em;
 }
 /*Column Styles for Blog*/
-col-two {
+.col-two {
   display: flex;
 }
 .col-two .col-aside {
