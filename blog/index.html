@@ -12,6 +12,9 @@ layout: default
           <li>
             <a href="">{{ post.title }}</a>
             <span>Posted: {{ post.date | date: '%B %d, %Y' }} </span>
+            <img src="{{ post.gravatar }}">
+            <a href="{{ post.authorTwitter }}" class="social-link">Tw</a>
+            by: {{ post.author }}
           </li>
         {% endfor %}
       </ul>
