@@ -287,6 +287,9 @@ hero-content .social-link:hover {
   height: 6em;
   margin-bottom: 1.5em;
 }
+.post-byline img {
+  height:2.5em;
+}
 
 .post {
   width:100%;
