@@ -255,6 +255,7 @@ hero-content .social-link:hover {
 .blog-title-list img{
   border-radius: 99px;
   display: inline-block;
+  font-size: 1rem;
   height: 2.5em;
   vertical-align: middle;
 }
@@ -289,6 +290,7 @@ hero-content .social-link:hover {
 }
 .post-byline img {
   height:2.5em;
+  font-size: 1rem;
 }
 
 .post {
