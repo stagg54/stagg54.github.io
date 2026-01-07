@@ -1,12 +1,4 @@
-@media (max-width: 800px) {
-  html {
-    box-shadow: none;
-    padding: 0;
-  }
-  .post-aside {
-    display: none;
-  }
-}
+
 
 /* Global Styles */
 html {
@@ -485,4 +477,20 @@ hero-content .social-link:hover {
 }
 .footer-nav a {
   color: #ccc;
+}
+
+@media (max-width: 799px) {
+  html {
+    box-shadow: none;
+    padding: -1;
+  }
+  .post-aside {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .half-hero {
+    display: none;
+  }
 }
