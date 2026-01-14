@@ -517,6 +517,21 @@ hero-content .social-link:hover {
   .post-aside {
     display: none;
   }
+  /*.blog-recent {*/
+  /*  display: none;*/
+  /*}*/
+  .blog-cols > .blog-recent {
+    text-align: center;
+  }
+  .blog-previews {
+    padding: 0;
+  }
+  .col-two {
+    flex-direction:column-reverse;
+  }
+  .post-byline {
+    white-space: nowrap;
+  }
 
   /*Gallery Styles*/
   .gallery {
