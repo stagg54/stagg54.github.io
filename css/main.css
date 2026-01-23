@@ -522,6 +522,9 @@ hero-content .social-link:hover {
   color: #333;
   display: block;
 }
+.dropdown:hover .drop-menu {
+  display: block;
+}
 
 /*Media Queries*/
 @media (max-width: 800px) {
