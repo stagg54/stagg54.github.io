@@ -627,7 +627,7 @@ hero-content .social-link:hover {
     padding: 1em;
   }
   .gallery .gallery-thumbs {
-    flex 1;
+    flex: 1;
     height: auto;
     white-space: nowrap;
     width: 100vw;
