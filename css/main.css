@@ -618,7 +618,9 @@ hero-content .social-link:hover {
   .post-byline {
     white-space: nowrap;
   }
-
+  .post-header .post-byline  {
+    font-size: 0.8rem;
+  }
   /*Gallery Styles*/
   .gallery {
     flex-direction: column;
@@ -642,6 +644,10 @@ hero-content .social-link:hover {
   }
   .gallery .gallery-info {
     flex:1;
+  }
+  .post-content img {
+    max-width: 90vw;
+
   }
 }
 
