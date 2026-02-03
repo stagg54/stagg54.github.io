@@ -582,6 +582,9 @@ hero-content .social-link:hover {
    display: flex;
    flex-direction: column-reverse;
  }
+.footer .drop-menu:before {
+  display: none;
+}
 
 .footer .drop-menu:after {
   border: 0.6em solid;
