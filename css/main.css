@@ -604,6 +604,10 @@ hero-content .social-link:hover {
   bottom: 0;
   z-index: 9;
 }
+.footer .drop-menu li {
+  display: block;
+  margin: 0;
+}
 
 /*Media Queries*/
 @media (max-width: 800px) {
