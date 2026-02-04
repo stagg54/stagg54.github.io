@@ -563,6 +563,16 @@ hero-content .social-link:hover {
 /*.footer .drop-trigger {*/
 /*  padding-right: 0;*/
 /*}*/
+
+.footer .drop-menu li:first-child {
+  border-radius: 5px 5px 0 0;
+  color: #999;
+  font-size: 0.5em;
+  padding: 1em 1em 0 0.25em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
 .footer .drop-trigger:after {
   border: 0.3em solid;
   border-color:  transparent transparent #ffff transparent;
