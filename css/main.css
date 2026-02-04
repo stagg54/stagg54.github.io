@@ -614,7 +614,7 @@ hero-content .social-link:hover {
   padding: 1em 0 0;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 25px;
   z-index: 9;
 }
 .footer .drop-menu li {
