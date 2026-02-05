@@ -622,6 +622,10 @@ hero-content .social-link:hover {
   margin: 0;
 }
 
+.mobile-menu-check, .show-mobile-menu{
+  display: none;
+}
+
 /*Media Queries*/
 @media (max-width: 800px) {
   html {
@@ -645,6 +649,22 @@ hero-content .social-link:hover {
     left: auto;
   }
 
+  /*Mobile Menu*/
+  .show-mobile-menu {
+    display: block;
+    float:right;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    padding: 1.5em;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .header-nav {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+  }
   /*Home Styles*/
   .home-callout {
     flex-direction: column;
