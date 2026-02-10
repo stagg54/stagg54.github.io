@@ -649,6 +649,10 @@ hero-content .social-link:hover {
     left: auto;
   }
 
+  .footer .drop-trigger:after {
+    display: none;
+  }
+
   /*Mobile Menu*/
   .show-mobile-menu {
     display: block;
@@ -664,6 +668,9 @@ hero-content .social-link:hover {
     overflow: hidden;
     padding: 0;
     transition: all 0.5s ease-in-out;
+  }
+  .mobile-menu-check:checked ~ .header-nav {
+    max-height: 1000px;
   }
   /*Home Styles*/
   .home-callout {
