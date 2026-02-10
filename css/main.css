@@ -652,7 +652,9 @@ hero-content .social-link:hover {
   .footer .drop-trigger:after {
     display: none;
   }
-
+  .footer .drop-menu{
+    display:none;
+  }
   /*Mobile Menu*/
   .show-mobile-menu {
     display: block;
