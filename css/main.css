@@ -41,14 +41,16 @@ p {
   line-height: 1.5;
   margin: 0.75em 0;
 }
-.content-container{
+.content-container {
   display: flex;
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
 }
 /*Nav Links*/
-.nav-links a {
+.nav-links a,
+.drop-trigger,
+.show-mobile-menu {
   font-size: .8rem;
   font-weight: bold;
   text-decoration: none;
@@ -561,7 +563,7 @@ hero-content .social-link:hover {
 /*  display: none;*/
 /*}*/
 /*.footer .drop-trigger {*/
-/*  padding-right: 0;*/
+/*  padding-right: -1;*/
 /*}*/
 
 .footer .drop-menu li:first-child {
@@ -622,7 +624,7 @@ hero-content .social-link:hover {
   margin: 0;
 }
 
-.mobile-menu-check, .show-mobile-menu{
+.mobile-menu-check, .show-mobile-menu {
   display: none;
 }
 
@@ -633,9 +635,9 @@ hero-content .social-link:hover {
     padding: 0;
   }
   /*Header Styles*/
-  .header-nav {
-    padding: 2vh 1em 0 0;
-  }
+  /*.header-nav {*/
+  /*  padding: 2vh 1em 0 0;*/
+  /*}*/
   .header-nav > li {
     margin-left: 0.25em;
   }
@@ -645,15 +647,17 @@ hero-content .social-link:hover {
   .nav-links a {
     font-size: 3.25vw;
   }
-  .header-logo{
+  .header-logo {
     left: auto;
   }
 
+  /*Hide blog drophown in Footer*/
+  .footer .dropdown:hover .drop-menu,
   .footer .drop-trigger:after {
     display: none;
   }
-  .footer .drop-menu{
-    display:none;
+  .footer .drop-trigger {
+    padding-right: -1;
   }
   /*Mobile Menu*/
   .show-mobile-menu {
