@@ -670,10 +670,22 @@ hero-content .social-link:hover {
     text-transform: uppercase;
   }
   .header-nav {
+    background-color: #444;
+    box-sizing: border-box;
+    left: 0;
     max-height: 0;
     overflow: hidden;
     padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 10vh;
     transition: all 0.5s ease-in-out;
+    width: 100%;
+    z-index: 9;
+  }
+  .header-nav li {
+    display: block;
+    margin-top: 1em;
   }
   .mobile-menu-check:checked ~ .header-nav {
     max-height: 1000px;
