@@ -28,9 +28,9 @@ h4 {
 }
 /*General Styles*/
 h1 + p {
-  font-size: -1.8em;
+  font-size: 1.8em;
   font-style: italic;
-  margin: 0em auto 0;
+  margin: 0 auto 0;
   max-width: 69%;
   text-align: center;
 }
@@ -149,7 +149,7 @@ p {
   background-color: rgba(255,255,255,0.8);
   color: #557c83;
 }
-hero-content .social-link:hover {
+.hero-content .social-link:hover {
   background-color: #000;
   color: #fff;
 }
@@ -227,7 +227,7 @@ hero-content .social-link:hover {
   display: flex;
 }
 .col-two .col-aside {
-  flex: 0 0 20 em;
+  flex: 0 0 20em;
   order: 1;
 }
 .col-two .col-content {
@@ -276,7 +276,7 @@ hero-content .social-link:hover {
 }
 
 
-.blog-posts - .blogposts {
+.blog-posts ~ .blogposts {
   border-top: 1px dotted rgba(0,0,0,0.1);
   margin-top: 4em;
   padding-top: 4em;
@@ -502,8 +502,8 @@ hero-content .social-link:hover {
   content: "";
   height: 0;
   position: absolute;
-  right 0;
-  top 0.3em;
+  right: 0;
+  top: 0.3em;
   width: 0;
 }
 .drop-menu {
@@ -581,7 +581,7 @@ hero-content .social-link:hover {
   content: "";
   height: 0;
   position: absolute;
-  right 0;
+  right: 0;
   top: -0.3em;
   width: 0;
 }
@@ -651,13 +651,13 @@ hero-content .social-link:hover {
     left: auto;
   }
 
-  /*Hide blog drophown in Footer*/
+  /*Hide blog dropdown in Footer*/
   .footer .dropdown:hover .drop-menu,
   .footer .drop-trigger:after {
     display: none;
   }
   .footer .drop-trigger {
-    padding-right: -1;
+    padding-right: 0;
   }
   /*Mobile Menu*/
   .show-mobile-menu {
@@ -686,6 +686,13 @@ hero-content .social-link:hover {
   .header-nav li {
     display: block;
     margin-top: 1em;
+  }
+  .header-nav li ~ li {
+    border: 0;
+    padding: 0;
+  }
+  .header-nav li:last-child {
+   margin-bottom: 1em;
   }
   .mobile-menu-check:checked ~ .header-nav {
     max-height: 1000px;
