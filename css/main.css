@@ -694,8 +694,19 @@ p {
   .header-nav li:last-child {
    margin-bottom: 1em;
   }
+  .header-nav li:first-child a {
+    color: #fff;
+  }
   .mobile-menu-check:checked ~ .header-nav {
     max-height: 1000px;
+  }
+  /*Hide dropdown in nav menu*/
+  .header-nav .dropdown:hover .drop-menu,
+  .header-nav .drop-trigger:after {
+    display: none;
+  }
+  .header-nav .drop-trigger {
+    padding-right: 0;
   }
   /*Home Styles*/
   .home-callout {
