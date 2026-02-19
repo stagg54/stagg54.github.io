@@ -671,7 +671,7 @@ p {
     background-color: #444;
     box-sizing: border-box;
     left: 0;
-    max-height: 0;
+    height: 0;
     overflow: hidden;
     padding: 0;
     position: absolute;
@@ -696,7 +696,7 @@ p {
     color: #fff;
   }
   .mobile-menu-check:checked ~ .header-nav {
-    max-height: 1000px;
+    height: 90vh;
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
@@ -709,12 +709,17 @@ p {
     width: 100%;
   }
   /*Hide dropdown in nav menu*/
-  .header-nav .dropdown:hover .drop-menu,
-  .header-nav .drop-trigger:after {
-    display: none;
-  }
-  .header-nav .drop-trigger {
-    padding-right: 0;
+  /*.header-nav .dropdown:hover .drop-menu,*/
+  /*.header-nav .drop-trigger:after {*/
+  /*  display: none;*/
+  /*}*/
+  /*.header-nav .drop-trigger {*/
+  /*  padding-right: 0;*/
+  /*}*/
+  .header-nav li:first-child a:hover,
+  .header-nav > li:first-child a:active
+  {
+    color: #ed6e2f;
   }
   /*Home Styles*/
   .home-callout {
@@ -776,7 +781,6 @@ p {
   }
   .post-content img {
     max-width: 90vw;
-
   }
 }
 
