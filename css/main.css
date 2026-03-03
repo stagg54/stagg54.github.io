@@ -832,7 +832,7 @@ p {
   .drop-menu li {
     background-color: #fff;
     margin: 0;
-    padding: 1em 0 0;
+    padding: 0;
   }
   .drop-menu li ~ li {
     border-top: 1px dotted rgba(0,0,0,0.1)
@@ -840,10 +840,10 @@ p {
   .drop-menu li:first-child {
     border-radius: 0px;
     color: #999;
-    font-size: 0.5em;
-    padding: 0;
+    font-size: 3.25vw;
+    padding: 1em 0;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
   .drop-menu li:last-child {
     border-radius: 0px;
@@ -852,7 +852,7 @@ p {
     color: #333;
     display: block;
     font-weight: normal;
-    padding: 0em;
+    padding: 1em 0 ;
     text-align: center;
     text-transform: none;
     white-space: nowrap;
