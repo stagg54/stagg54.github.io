@@ -705,7 +705,7 @@ p {
     left:0;
     position: absolute;
     text-align: center;
-    top 1.5em;
+    top: 1.5em;
     width: 100%;
   }
   /*Hide dropdown in nav menu*/
@@ -842,6 +842,7 @@ p {
     color: #999;
     font-size: 3.25vw;
     padding: 1em 0;
+    margin-top: 1em;
     text-align: center;
     text-transform: capitalize;
   }
@@ -860,6 +861,7 @@ p {
   .drop-menu a:hover {
     background-color: rgba(0,0,0,0.1);
     color: #333;
+    padding: 1em 0;
   }
 }
 
