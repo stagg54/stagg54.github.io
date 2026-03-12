@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Post!
+description: My very first post!
 postHero: /img/shark.jpg
 author: Mike Hartl
 authorTwitter: https://twitter.com/mhartl

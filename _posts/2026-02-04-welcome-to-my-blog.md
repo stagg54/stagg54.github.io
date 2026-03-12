@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome!
+description: We are glad you are here.
 postHero: /img/shark.jpg
 author: Mike Hartl
 authorTwitter: https://twitter.com/mhartl

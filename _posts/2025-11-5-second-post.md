@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Second Post 
+title: Second Post
+description: A second post.
 postHero: /img/seneca.jpg
 author: Sam Taggart
 authorTwitter: https://twitter.com/sasworkshops
