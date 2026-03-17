@@ -1,4 +1,11 @@
 <head>
+  {% if page.layout == 'post' %}
+    <meta property="og.type" content="article" />
+    <meta property="og:image" content="{{ site.baseurl | append: page.postHero}}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.baseurl}}/img/logo.png" />
+    <meta property="og:type" content="website" />
+  {% endif %}
   {% if page.title %}
     <title> {{ page.title }} | Test Page</title>
     <meta property="og:title" content="{{ page.title }}" />
@@ -8,10 +15,13 @@
   {% endif %}
   {% if page.description %}
     <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}" />
   {% else %}
     <meta name="description" content="This is a dangerous site">
+    <meta property="og:description" content="This is a dangerous site">
   {% endif %}
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="{{ site.baseurl | append: page.url }}" />
   <link href="/favicon.png" rel="icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
