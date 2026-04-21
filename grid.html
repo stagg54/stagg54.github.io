@@ -24,7 +24,7 @@
     }
     .grid-container {
       display: grid;
-      grid-template-areas: "header header header" "menu content panel" "footer footer footer";
+      grid-template-areas: "header header header" "banner banner banner" "menu content panel" "footer footer footer";
       grid-template-columns: 10em 1fr 15em;
       grid-template-rows: minmax(4em, auto) 1fr auto;
       min-height: 100vh;
@@ -40,7 +40,7 @@
     .grid-menu {
       background-color: #c0c0c0;
       grid-area: menu;
-      padding: 4em 1em 1em 1em;
+      padding: 1em;
     }
     .grid-menu ul,
     .grid-panel ul,
@@ -56,7 +56,7 @@
     .grid-panel {
       border-left: 1px solid rgba(0,0,0,0.1);
       grid-area: panel;
-      padding: 4em 2em 4em 3em;
+      padding: 1em 2em 4em 3em;
     }
     .grid-footer {
       background-color: #ddd;
@@ -70,12 +70,14 @@
     .grid-banner {
       align-self: start;
       background-color: rgba(168,214,247, 0.9);
-      grid-column: menu-start / panel-end;
-      grid-row-start: content-start;
+      grid-area: banner;
+      /*grid-column: menu-start / panel-end;*/
+      /*grid-row-start: content-start;*/
       padding: 1em;
       position:sticky;
       top: 0;
       z-index: 10;
+
     }
 
   </style>
