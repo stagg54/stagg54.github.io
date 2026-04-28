@@ -21,14 +21,22 @@
       padding: 0;
     }
     .landing-cta {
-      margin-top: 0;
+      margin-top: 1.5em;
       text-align: center;
+    }
+    .grid {
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: minmax(2em, 1fr) repeat(6, minmax(auto, 10em)) minmax(2em, 1fr);
     }
     .header {
       background-color: #000;
       color: #fff;
       padding: 1em;
       text-align: center;
+    }
+    .header-content {
+      grid-column: 2/8;
     }
     .hero {
       background-color: #a8d6f7;
@@ -56,7 +64,7 @@
   </style>
 </head>
 <body>
-  <header class="header">
+  <header class="header grid">
     <div class="header-content">
       I am a Header
     </div>
@@ -109,6 +117,59 @@
       Take almost any path you please, and ten to one it carries you down a dale, and leaves you there by a pool in the stream. There is magic in it.
     </div>
   </section>
+
+  <footer class="footer">
+    <h3 class="footer_title">
+      I am a Footer
+    </h3>
+    <ul class="menulist footer_menu-first">
+      <li>
+        Products
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+    </ul>
+    <ul class="menulist">
+      <li>
+        About
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+    </ul>
+    <ul class="menulist">
+      <li>
+        Links
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+    </ul>
+    <ul class="menulist">
+      <li>
+        Account
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+      <li>
+        <a href="">Footer Link</a>
+      </li>
+    </ul>
+  </footer>
 
 </body>
 </html>
